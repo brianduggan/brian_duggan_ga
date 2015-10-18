@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+  color: #E00000;
+  text-align: center;
+}
+
+.red h1 {
+  font-size: 3.2em;
+  color: white;
+  margin: -15px;
+  padding: 0 5em 0 0;
+}
+
+.white h1 {
+  color: #E00000;
+  margin: -28px;
+  padding: 0 0 0 5em;
+  font-size: 2.8em;
+}
+
+
+.red {
+  background-color: #E00000;
+  padding: 10px 10px 0 10px;
+}
+
+.white {
+  background-color: white;
+  padding: 12px 10px 10px 10px;
+}
+
+body {
+  /*background-color: #fff;*/
+/*  background: url(img/pow.jpg);
+  background: cover;*/
+  margin: 0 auto;
+}
+
+
+img {
+  margin: 0%;
+  max-width: 40%;
+  border: solid blue 4px;
+  border-radius: 5%;
+}
+
+
+.container {
+  padding: 5%;
+  margin: 0 auto;
+}
+
+.row {
+  clear: both;
+  margin-bottom: 6%;
+  font-family: 'PT Serif', serif;;
+}
+
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+
+}
+
+[class*="col-"]:first-child {
+  margin-left: 0;
+}
+
+.col-1  { width: 100%;  }
+.col-2  { width: 32.33%;   }
+.col-3  { width: 65.66%;   }
+
+.about {
+  background-color: #E00000;
+  color: white;
+  border-radius: 2%;
+}
+
+.about a {
+  color: yellow;
+}
+
+.about a:hover {
+  color: black;
+}
+
+.about a:visited {
+  color: black;
+}
+
+.col-3 img {
+  max-width: 60%;
+}
+
+
+.about p {
+  padding: 0 10px 0 10px;
+}
+
+footer {
+  margin: -50px 0 0 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: white;
+  background-color: #E00000;
+  border-radius: 1% 0 0 0;
+}
+
+footer h4, footer h5 {
+  margin: 8px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
