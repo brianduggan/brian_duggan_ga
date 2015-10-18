@@ -21,7 +21,7 @@ header {
 .white h1 {
   color: #E00000;
   margin: -28px;
-  padding: 0 0 0 5em;
+  padding: 0 0 15px 5em;
   font-size: 2.8em;
 }
 
@@ -38,8 +38,8 @@ header {
 
 body {
   /*background-color: #fff;*/
-/*  background: url(img/pow.jpg);
-  background: cover;*/
+  background: url("../img/pow.jpg");
+  background-size: tile;
   margin: 0 auto;
 }
 
